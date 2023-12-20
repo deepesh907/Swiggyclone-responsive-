@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0%;padding: 0%;box-sizing: border-box;
+}
+/* Home2 section starts */
+#home2{
+
+    display:flex;
+    
+    
+}
+#home2section{
+    width: 50vw !important;
+    display:flex;
+    flex-direction:column;
+    margin: 0%;
+    
+}
+#home2section p{
+    font-size: 1.5rem;
+    padding: 0px 20px;
+    color: grey;
+    
+}
+#inputtab input{
+    width: 35vw;
+    min-height: 50px;
+    font-size: 1.5rem;
+    padding: 13px 40px;
+}
+#inputtab{
+    /* border: 2px solid red; */
+    padding: 20px 10px;
+}
+#inputtab span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.39rem;
+    font-weight: bold;
+    background-color: #eb5b0e;
+    color: white;
+    cursor: pointer;
+    padding: 16px 10px;
+}
+#coverimg{
+    width:50% !important;
+    display: inline-block;
+    height: 19vh;
+}
+
+#coverimg img{
+    width:100% !important;
+    height: 19vh;
+    height:500px  !important;
+    
+    
+
+    
+}
+#logo{
+    padding:20px 20px;
+    display: inline-block;        
+ 
+}
+#logo img{
+    max-width: 200px;
+}
+#buttons{
+    
+    display: inline-block;        
+    
+}
+.btn{
+    background-color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px 2px rgb(148, 146, 146);
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+
+}
+.btn:hover{
+    transform: scale(0.9);
+    background-color: rgba(255, 255, 255, 0.589);
+    
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+}
+#signup{
+    background-color: black;
+}
+#signup a{
+    color: white;
+}
+
+/* footer section */
+#footer{
+    display: grid;
+    grid-area: footer;
+    background-color: #2b1e16;
+}
+#footsection{
+    padding: 20px 20px;
+    
+}
+.container{
+   display: inline-block;
+   text-align: center;
+   padding: 30px 40px;
+   max-width: 33%;
+}
+.container h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px;
+}
+.container p{
+    color: #e0cbc1;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.container img{
+    width:160px;
+}
+#home2section a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 2px 2px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(83, 79, 79);
+    font-weight: 800;
+
+    
+}
+
+/* utility classes */
+.h2primary{
+    font-size: 2.5rem;
+    padding: 2px 20px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    
+}
+.h3primary{
+    font-size: 1.5rem;
+    padding: 2px 20px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    
+}
